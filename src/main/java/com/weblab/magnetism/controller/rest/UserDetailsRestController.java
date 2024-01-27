@@ -9,10 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @author Denys Laptiev
- * Date: 12.05.2023
- */
+
 @RestController
 @RequestMapping(UserDetailsRestController.USER_DETAILS_REST_URL)
 public class UserDetailsRestController {

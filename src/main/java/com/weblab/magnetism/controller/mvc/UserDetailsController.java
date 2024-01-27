@@ -11,10 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.security.auth.login.AccountNotFoundException;
 
-/**
- * @author Denys Laptiev
- * Date: 12.05.2023
- */
 @Controller
 @RequestMapping(UserDetailsController.USER_DETAILS_URL)
 public class UserDetailsController {

@@ -9,10 +9,7 @@ import org.springframework.validation.Validator;
 
 import java.util.Optional;
 
-/**
- * @author Denys Laptiev
- * Date: 12.05.2023
- */
+
 @Component
 public class UserValidator implements Validator {
 
